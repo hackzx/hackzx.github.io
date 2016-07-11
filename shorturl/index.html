@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+
+$.post("https://git.io", 'url='+document.referrer, function(data,status,xhr){
+      document.write(xhr.getResponseHeader('Location'));
+    }, "text");
+
+
+
+// alert(document.referrer)
+</script>
+</head>
+<body>
+	<a href="https://git.io" target="_blank">git.io</a>
+	<br>
+	<script type="text/javascript">document.write(document.referrer)</script>
+
+</body>
+</html>
+
+
