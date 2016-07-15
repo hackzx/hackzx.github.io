@@ -3,6 +3,8 @@
 <head>
 <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js">
 </script>
+啊，抱歉，著實我是想不出有什麼辦法可以在靜態頁面調用 git.io 獲得短網址了。<br>
+好在至少轉為 URL 編碼，可以被識別為完整的連接了，所以就這樣吧。
 <script>
 
 $.post("https://git.io", 'url='+document.referrer, function(data,status,xhr){
