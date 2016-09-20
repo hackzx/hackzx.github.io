@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://dasb.me/2016/09/20/%E5%B0%8B%E7%A7%A6%E3%80%82/</loc>
+    <loc>http://dasb.me/2016/07/11/%E9%81%A0%E4%BA%8B%E4%B8%89%E5%89%87/</loc>
+    <lastmod>2016-07-11T12:37:20.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dasb.me/2016/09/20/%E5%B0%8B%E7%A7%A6/</loc>
     <lastmod>2016-09-20T15:37:20.000Z</lastmod>
   </url>
   
@@ -12,12 +17,7 @@
   </url>
   
   <url>
-    <loc>http://dasb.me/2016/07/11/%E9%81%A0%E4%BA%8B%E4%B8%89%E5%89%87%E3%80%82/</loc>
-    <lastmod>2016-07-11T12:37:20.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dasb.me/2016/05/16/%E7%86%B1%E6%B7%9A%E3%80%82/</loc>
+    <loc>http://dasb.me/2016/05/16/%E7%86%B1%E6%B7%9A/</loc>
     <lastmod>2016-05-15T19:04:37.000Z</lastmod>
   </url>
   
@@ -72,12 +72,12 @@
   </url>
   
   <url>
-    <loc>http://dasb.me/2014/11/22/%E6%B0%B4%E5%8D%A1/</loc>
+    <loc>http://dasb.me/bak/%E6%B0%B4%E5%8D%A1%E3%80%82.html</loc>
     <lastmod>2014-11-22T02:57:44.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://dasb.me/bak/%E6%B0%B4%E5%8D%A1%E3%80%82.html</loc>
+    <loc>http://dasb.me/2014/11/22/%E6%B0%B4%E5%8D%A1/</loc>
     <lastmod>2014-11-22T02:57:44.000Z</lastmod>
   </url>
   
@@ -117,12 +117,12 @@
   </url>
   
   <url>
-    <loc>http://dasb.me/2014/08/29/%E5%A4%9A%E8%AA%AA%E8%A9%95%E8%AB%96%E7%BE%8E%E5%8C%96/</loc>
+    <loc>http://dasb.me/bak/%E5%A4%9A%E8%AA%AA%E8%A9%95%E8%AB%96%E7%BE%8E%E5%8C%96.html</loc>
     <lastmod>2014-08-28T17:09:22.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://dasb.me/bak/%E5%A4%9A%E8%AA%AA%E8%A9%95%E8%AB%96%E7%BE%8E%E5%8C%96.html</loc>
+    <loc>http://dasb.me/2014/08/29/%E5%A4%9A%E8%AA%AA%E8%A9%95%E8%AB%96%E7%BE%8E%E5%8C%96/</loc>
     <lastmod>2014-08-28T17:09:22.000Z</lastmod>
   </url>
   
