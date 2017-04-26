@@ -418,6 +418,10 @@ a.gitment-editor-footer-tip:hover {
 .gitment-editor-submit:hover,
 .gitment-comments-init-btn:hover {
   /*background-color: #00ACC1;*/
+  /*background-color: red;*/
+  color: #9a9a9a;
+}
+.gitment-comments-init-btn:focus {
   background-color: red;
 }
 
