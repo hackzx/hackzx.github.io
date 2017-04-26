@@ -179,7 +179,8 @@ a.gitment-header-issue-link:hover {
 
 .gitment-comment-header {
   margin: 12px 15px;
-  color: #666;
+  /*color: #666;*/
+  color: #9a9a9a;
   background-color: #fff;
   border-radius: 3px;
 }
