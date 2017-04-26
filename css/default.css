@@ -427,8 +427,10 @@ a.gitment-editor-footer-tip:hover {
 
 .gitment-comments-init-btn:disabled,
 .gitment-editor-submit:disabled {
-  color: rgba(255,255,255,0.75);
-  background-color: #4DD0E1;
+  /*color: rgba(255,255,255,0.75);*/
+  /*background-color: #4DD0E1;*/
+  color: #404040;
+  background-color: #ffffff;
   box-shadow: none;
 }
 
