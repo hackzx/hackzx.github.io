@@ -1901,6 +1901,20 @@ font-family:標楷體;color:teal"> </span><span lang="EN-US">
 <link rel="stylesheet" href="http://dasb.me/css/default.css">
 <script src="http://dasb.me/js/gitment.browser.js"></script>
 <script>
+
+const ffTheme = {
+  render(state, instance) {
+    const container = document.createElement('div')
+    container.lang = "en-US"
+    container.className = 'gitment-container gitment-root-container'
+    container.appendChild(instance.renderHeader(state, instance))
+    container.appendChild(instance.renderEditor(state, instance))
+    container.appendChild(instance.renderComments(state, instance))
+    container.appendChild(instance.renderFooter(state, instance))
+    return container
+  },
+}
+
 var gitment = new Gitment({
   id: 'location.href', // 可选。默认为 location.href
   owner: 'hackzx',
@@ -1909,6 +1923,7 @@ var gitment = new Gitment({
     client_id: '509ccec50bf833dac8a0',
     client_secret: 'ff3b249f39235793ab0f960134bab6b1d5999485',
   },
+  theme: ffTheme,
 })
 gitment.render('container')
 </script>
