@@ -339,7 +339,7 @@ a.gitment-editor-logout-link:hover {
   background-color: transparent;
 
   width: 100%;
-  font-size: 14px;
+  /*font-size: 14px;*/
 
   line-height: 1.5;
   word-wrap: break-word;
