@@ -4,7 +4,7 @@
   <subtitle><![CDATA[逆袭军团]]></subtitle>
   <link href="/rss.xml" rel="self"/>
   <link href="http://dasb.me/"/>
-  <updated>2017-04-26T16:19:52.639Z</updated>
+  <updated>2017-04-26T16:21:35.403Z</updated>
   <id>http://dasb.me/</id>
   
   <author>
@@ -231,7 +231,7 @@
     <link href="http://dasb.me/2014/08/29/%E5%A4%9A%E8%AA%AA%E8%A9%95%E8%AB%96%E7%BE%8E%E5%8C%96/"/>
     <id>http://dasb.me/2014/08/29/多說評論美化/</id>
     <published>2014-08-28T17:09:22.000Z</published>
-    <updated>2017-04-26T16:19:40.000Z</updated>
+    <updated>2017-04-26T16:21:33.000Z</updated>
     <content type="html"><![CDATA[<p>廢了大半夜，把多說的評論框愣是精簡了下來，原諒我沒留版權。<br>反正別人也不知道他用的是什麼評論。 </p>
 <p>然後自己都不知道改了一頓什麼，看不順眼的就全display:none!important了。<br>於是現在非常爽。</p>
 <pre><code>/* 更改「發佈」顏色為中灰*/
@@ -325,8 +325,8 @@
 #ds-thread #ds-reset .ds-sync {
     display: none;
 }
-</code></pre><p>--
-2017.4.29  </p>
+</code></pre><p>--</p>
+<p>2017.4.29  </p>
 <p>把评论系统换成了<a href="https://github.com/imsun/gitment" target="_blank">gitment</a>，是一个用Issues做评论的东西。 姑且就称之为东西吧。  </p>
 <p>这东西挺好用的，改了一些样式，使之更符合自己的审美。不过分布太零散了，也懒得记录都改了什么，总之就是在 comment.ejs、default.css 和 gitment.browser.js 三个文件中修修补补了。</p>
 <p>旧的评论：<a href="http://dasb.me/duoshuo_old_comments.json">duoshuo_old_comments</a></p>
