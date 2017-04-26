@@ -159,20 +159,27 @@ iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAAnAAAAJwEqCZFPAAAKTWlD
 
 
   
-<!-- Duoshuo Comment BEGIN -->
-<div class="ds-thread"></div>
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"dasb"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = 'http://static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0]
-    || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
- </script>
-<!-- Duoshuo Comment END -->
+
+
+<!-- gitment start -->
+
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: 'location.href', // 可选。默认为 location.href
+  owner: 'hackzx',
+  repo: 'hackzx.github.io',
+  oauth: {
+    client_id: '509ccec50bf833dac8a0',
+    client_secret: 'ff3b249f39235793ab0f960134bab6b1d5999485',
+  },
+})
+gitment.render('container')
+</script>
+
+<!-- gitment end -->
 
     <div class="clearfix"></div>
   </section>
