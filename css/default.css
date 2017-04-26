@@ -61,6 +61,7 @@
 .gitment-header-like-btn,
 .gitment-comment-like-btn {
   cursor: pointer;
+  color: #666666;
 }
 
 .gitment-comment-like-btn {
@@ -194,7 +195,8 @@ a.gitment-header-issue-link:hover {
 a.gitment-comment-name,
 a.gitment-comment-name:visited {
   font-weight: 600;
-  color: #666;
+  /*color: #666;*/
+  color: #000;
 }
 
 .gitment-editor-tabs {
