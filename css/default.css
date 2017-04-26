@@ -61,7 +61,7 @@
 .gitment-header-like-btn,
 .gitment-comment-like-btn {
   cursor: pointer;
-  color: #666666;
+  /*color: #666666;*/
 }
 
 .gitment-comment-like-btn {
