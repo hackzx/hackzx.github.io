@@ -1,7 +1,7 @@
 body {
 	margin:0;
 	padding:0;
-	font-size:100%;
+	font-size:110%;
 	font-family:Crimson Text,sans-serif;
 	font-weight:100;
 	text-align:justify;
@@ -31,7 +31,8 @@ video {
 	margin-bottom:8vmin
 }
 .main {
-	width:500px;
+	/*width:500px;*/
+	width:630px;
 	margin:3rem auto;
 	padding:40px
 }
@@ -42,7 +43,8 @@ video {
 	margin:0 auto;
 	background:rgba(255,255,255,.8);
 	bottom:0;
-	width:500px;
+	/*width:500px;*/
+	width: 630px;
 	padding:0;
 	z-index:1
 }
