@@ -9,12 +9,12 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 
   <meta charset="utf-8">
   
-  <title>页面 2</title>
+  <title>test</title>
   <meta name="author" content="大傻逼">
    <meta name="description" content="nixiteam 逆袭 逆袭军团">
   
 
-  
+  <meta property="og:title" content="test"/>
   <meta property="og:site_name" content="NIXI"/>
   <meta name="viewport" content="initial-scale=1.0">
  <meta property="og:image" content="undefined"/>
@@ -44,116 +44,93 @@ iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAAnAAAAJwEqCZFPAAAKTWlD
   <header class="banner"><h1 class="logo">NIXI</h1>
 </header>
   <section class="main">
-    <ul class="posts">
+    
 
+<article class="single ty-basic ty-indent ty-wide post">
+  <header class="single_title">
+    
   
-<li class="post-item">
-  
-  
-    <h1 class="title"><a href="/2014/08/28/實習/">實習。</a></h1>
-  
-
-
-</li>
-
-
-
-
-
-  
-<li class="post-item">
-  
-  
-    <h1 class="title"><a href="/2014/08/22/聂绀弩四十九首/">聂绀弩四十九首</a></h1>
+    <h1 class="title">test</h1>
   
 
 
-</li>
-
-
-
-
+  </header>
+  
+    <div class="gallery">
+  <div class="photoset">
+    
+      <img src="">
+    
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
 
   
-<li class="post-item">
-  
-  
-    <h1 class="title"><a href="/2014/07/21/君山/">君山。</a></h1>
-  
-
-
-</li>
-
-
-
-
+  <h1 id="hello">hello</h1>
+<h2 id="nice">nice</h2>
+<p><em>sad</em>
+<em>aaaaa</em>
+<strong>hello</strong></p>
 
   
-<li class="post-item">
-  
-  
-    <h1 class="title"><a href="/2014/06/06/衡阳/">衡阳。</a></h1>
-  
+  <footer class="meta">
+    <time datetime="2018-05-28T17:51:54.000Z"><a href="/2018/05/29/test/">2018 29 May</a></time>
 
 
-</li>
+
+
+
+    <div class="clearfix"></div>
+  </footer>
+  
+  <hr>
+</article>
 
 
 
 
 
   
-<li class="post-item">
-  
-  
-    <h1 class="title"><a href="/2014/06/04/记麦当劳诸事/">记麦当劳诸事。</a></h1>
-  
 
 
-</li>
+<!-- gitment start -->
+<br>
+<div id="container"></div>
+<link rel="stylesheet" href="http://dasb.me/css/default.css">
+<script src="http://dasb.me/js/gitment.browser.js"></script>
+<script>
 
+const ffTheme = {
+  render(state, instance) {
+    const container = document.createElement('div')
+    container.lang = "en-US"
+    container.className = 'gitment-container gitment-root-container'
+    container.appendChild(instance.renderHeader(state, instance))
+    container.appendChild(instance.renderEditor(state, instance))
+    container.appendChild(instance.renderComments(state, instance))
+    container.appendChild(instance.renderFooter(state, instance))
+    return container
+  },
+}
 
+var gitment = new Gitment({
+  //id: 'location.href', // 可选。默认为 location.href
+  owner: 'hackzx',
+  repo: 'hackzx.github.io',
+  oauth: {
+    client_id: '509ccec50bf833dac8a0',
+    client_secret: 'ff3b249f39235793ab0f960134bab6b1d5999485',
+  },
+  // theme: ffTheme,
+  // 评论框前置k
+})
+gitment.render('container')
+</script>
 
-
-
-  
-<li class="post-item">
-  
-  
-    <h1 class="title"><a href="/2014/02/04/我比别人优秀在哪里/">我比别人优秀在哪里。</a></h1>
-  
-
-
-</li>
-
-
-
-
-
-  
-<li class="post-item">
-  
-  
-    <h1 class="title"><a href="/2014/02/01/铁屋子/">铁屋子。</a></h1>
-  
-
-
-</li>
-
-
-
-
-
-</ul>
-
-<nav class="pagination">
-  
-    <a href="/" class="alignleft prev">新</a> /
-  
-  
-  <div class="clearfix"></div>
-</nav>
-
+<!-- gitment end -->
 
     <div class="clearfix"></div>
   </section>
