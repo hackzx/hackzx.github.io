@@ -3,7 +3,7 @@
   
   <url>
     <loc>http://dasb.me/CONTACT.html</loc>
-    <lastmod>2019-03-05T10:15:48.626Z</lastmod>
+    <lastmod>2019-03-05T10:46:56.020Z</lastmod>
   </url>
   
   <url>
@@ -94,6 +94,11 @@
   <url>
     <loc>http://dasb.me/404.html</loc>
     <lastmod>2014-03-02T10:26:02.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dasb.me/about/1.html</loc>
+    <lastmod>2019-03-05T10:15:26.667Z</lastmod>
   </url>
   
   <url>
@@ -197,18 +202,13 @@
   </url>
   
   <url>
-    <loc>http://dasb.me/shorturl/index.html</loc>
-    <lastmod>2018-05-28T18:28:48.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://dasb.me/chat/index.html</loc>
     <lastmod>2018-05-28T18:28:48.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://dasb.me/about/1.html</loc>
-    <lastmod>2019-03-05T10:15:26.667Z</lastmod>
+    <loc>http://dasb.me/shorturl/index.html</loc>
+    <lastmod>2018-05-28T18:28:48.000Z</lastmod>
   </url>
   
 </urlset>
