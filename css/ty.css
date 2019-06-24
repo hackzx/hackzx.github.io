@@ -207,17 +207,21 @@ dd,dl,dt,h1,h2,h3,h4,h5,h6,hr,li,ol,strong,ul {
 .ty-wide h1 {
 	font-size:2rem;
 	line-height:2.5rem;
-	padding:1.25rem 0
+	/*padding:1.25rem 0;*/
+	padding:3rem 0 1.25rem 0;
+	/*padding-top: 2.25rem;*/
 }
 .ty-wide h2 {
 	font-size:1.5rem;
 	line-height:2rem;
-	padding:1.25rem 0
+	/*padding:1.25rem*/
+	padding:2rem 0 1rem 0;
 }
 .ty-wide h3 {
 	font-size:1rem;
 	line-height:1.5rem;
-	padding:1.25rem 0
+	/*padding:1.25rem 0*/
+	padding:1.25rem 0 0.5rem 0;
 }
 .ty-wide address,.ty-wide blockquote,.ty-wide h4,.ty-wide p {
 	font-size:0.9rem;
